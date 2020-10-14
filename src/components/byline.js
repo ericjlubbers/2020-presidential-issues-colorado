@@ -8,7 +8,9 @@ import JohnMug from '../images/johnfrank.jpg';
 const Byline = () => (
 <div class="container">
     <hr className="thin" />
-                    <div class="columns is-multiline is-mobile">
+    <div class="columns is-centered">
+        <div class="column is-10-desktop">
+        <div class="columns is-multiline is-mobile">
                     <div class="column is-half-mobile is-one-third-tablet">
                             <article class="media">
                                 <figure class="media-left">
@@ -64,6 +66,9 @@ const Byline = () => (
                             </article>
                         </div>
                     </div>
+        </div>
+    </div>
+                    
                     <hr className="thin" />
                 </div>
                 
