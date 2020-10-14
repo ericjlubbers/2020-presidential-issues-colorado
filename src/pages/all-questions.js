@@ -11,9 +11,12 @@ import QuestionList from '../components/question-list';
 
 const IndexPage = () => <Layout>
     <NavbarTop/>
+    <div class="columns is-centered">
+<div class="column is-8-desktop is-full-tablet">
     <HeadlineBox>
     <Byline />
     </HeadlineBox>
+    </div></div>
     <Breadcrumbs/>
     <QuestionList/>
     <CandidateCardsLive />

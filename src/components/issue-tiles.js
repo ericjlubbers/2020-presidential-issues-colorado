@@ -22,10 +22,10 @@ export default () => (
 
 render={data => (
 
-<div id="issues">
+<div>
 <section class="section">
 <div class="container">
-<h2 class="title is-2 has-rule has-text-centered">The Issues</h2>
+<h2 class="title is-2 has-rule has-text-centered" id="issues">The Issues</h2>
       <hr class="level has-text-centered"/>
       <h3 class="subtitle is-5 has-text-centered">Pick a card to see stances from the candidates.</h3>
       <hr class="level has-text-centered"/>

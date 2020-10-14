@@ -11,7 +11,7 @@ module.exports = {
 		siteUrl: `http://projects.coloradosun.com/trump-biden-colorado-issues-2020-election/`,
 
 	},
-	// pathPrefix: `/trump-biden-colorado-issues-2020-election`,
+	pathPrefix: `/trump-biden-colorado-issues-2020-election`,
 	plugins: [
 		'gatsby-plugin-react-helmet',
 		`gatsby-transformer-remark`,
