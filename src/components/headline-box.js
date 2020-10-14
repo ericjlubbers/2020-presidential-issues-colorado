@@ -26,7 +26,7 @@ export default ({ children }) => (
   
   render={data => (
 
-<div><section class="section">	
+<div><section class="lessbottom">	
 	<div class="columns is-centered">
 		<div class="column">
 		{data.allGoogleSpreadsheetChatter.edges.map(({ node }, index) => (

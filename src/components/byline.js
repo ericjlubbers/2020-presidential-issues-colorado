@@ -40,7 +40,7 @@ const Byline = () => (
                                 <div class="media-content">
                                     <div class="content">
                                         <h4 class="byline title is-size-6 is-size-6-mobile">John Frank</h4>
-                                        <p class="byline subtitle is-size-6 is-size-7-mobile"><a href="https://coloradosun.com/author/john-frank/"><em>Editor</em></a></p>
+                                        <p class="byline subtitle is-size-6 is-size-7-mobile"><a href="https://coloradosun.com/author/john-frank/"><em>Reporter</em></a></p>
                                     </div>
                                 </div>
                             </article>

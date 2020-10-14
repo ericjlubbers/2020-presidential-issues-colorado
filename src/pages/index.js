@@ -11,23 +11,22 @@ import Footer from '../components/footer';
 
 const IndexPage = () => <Layout>
 <NavbarTop/>
-<div class="columns is-widescreen is-multiline">
-<div class="column is-6-widescreen is-full-desktop is-full-tablet">
+<div class="columns is-centered">
+<div class="column is-8-desktop is-full-tablet">
 <HeadlineBox>
 <Byline />
 </HeadlineBox>
 <Breadcrumbs/>
 <IntroBox />
 </div>
-<div class="column is-6-widescreen is-full-desktop is-full-tablet">
+</div>
+<div class="columns">
 <div class="column">
 <CandidateCardsLive />
 </div>
 <div class="column">
 <IssueTiles />
 </div>
-</div>
-
 </div>
 <Footer />
 </Layout>;
